@@ -20,9 +20,8 @@ document.body.appendChild( renderer.domElement );
 //býr til cameru og group + controls fyrir orbit
 const camera = new THREE.PerspectiveCamera( 45, window.innerWidth / window.innerHeight, 1, 10000 );
 const group = new THREE.Group();
-const controls = new OrbitControls( camera, renderer.domElement );
+
 camera.position.set( 0, 20, 100 );
-controls.update();
 
 const geometry = new THREE.BoxGeometry( 1, 1, 1 );
 // "Tunglið"
