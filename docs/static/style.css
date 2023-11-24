@@ -4,3 +4,9 @@
     overflow: hidden;
     touch-action: pan-y; /* Allow vertical scroll */
   }
+html, body {
+  overflow-x: hidden;
+}
+body {
+  position: relative;
+}
