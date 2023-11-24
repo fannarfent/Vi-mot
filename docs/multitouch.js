@@ -48,7 +48,6 @@ let touchStart = [];
 renderer.domElement.addEventListener('touchstart', handleTouchStart, false);
 renderer.domElement.addEventListener('touchmove', handleTouchMove, false);
 
-// Variables to keep track of rotation
 let rotating = false;
 
 function handleTouchStart(event) {
