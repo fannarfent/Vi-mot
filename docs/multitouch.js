@@ -99,15 +99,10 @@ function animate() {
 	requestAnimationFrame( animate );
     date = Date.now() * 0.0001;
 
-    cube.rotation.x += 0.01;
-    cube.rotation.y += 0.01;
+    
     cube.position.set(Math.cos(date) * orbitRadius,0, Math.sin(date) * orbitRadius)
-    sphere.rotation.y += 0.01;
-    sphere.rotation.x += 0.01;
-    pyramid.rotation.y += 0.01;
-    pyramid.rotation.x += 0.01;
+
     pyramid.position.set(Math.cos(date) * orbitRadius1 ,0,Math.sin(-date) * orbitRadius)
-    light.rotation.x += 0.01;
 	renderer.render( scene, camera );
 }
 animate();
