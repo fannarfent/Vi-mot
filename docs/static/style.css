@@ -1,0 +1,6 @@
+#svgContainer {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    touch-action: pan-y; /* Allow vertical scroll */
+  }
