@@ -90,7 +90,6 @@ function handleTouchEnd(event) {
     rotating = false;
 }
 
-// Attach touchend event listener
 renderer.domElement.addEventListener('touchend', handleTouchEnd, false);
 
 function animate() {
